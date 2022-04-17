@@ -4,6 +4,8 @@ import EventList from '../../components/events/event-list'
 import ErrorAlert from '../../components/ui/error-alert'
 import { Fragment } from 'react'
 import ResultsTitle from '../../components/events/results-title'
+import Button from '../../components/ui/button'
+
 function FilteredEventsPage() {
   const router = useRouter()
   const filterData = router.query.slug
